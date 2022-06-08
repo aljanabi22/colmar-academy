@@ -116,7 +116,7 @@ header {
   padding: 1rem 1.5rem;
 }
 
-header .desktop {
+header .desktop-screen {
   display: flex;
   align-items: center;
 }
@@ -140,21 +140,21 @@ header li:last-child {
   padding-right: 0;
 }
 
-header .mobile {
+header .mobile-screen {
   display: none;
 }
 
 @media only screen and (max-width: 550px) {
-  header .desktop {
+  header .desktop-screen {
     display: none;
   }
 
-  header .mobile {
+  header .mobile-screen {
     display: block;
     width: 100%;
   }
 
-  header .mobile ul {
+  header .mobile-screen ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
